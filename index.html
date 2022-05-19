@@ -3,8 +3,7 @@
     <title>Profile</title>
     <hr/>
     </head>
-    <body>
-        <h1 align="center">Resume</h1>
+        <h1 align="center">Profile</h1>
         <hr/>
         <img src="Default.jpg"height="90pix" weidth="80pix" alt="Picture of candiate">
         <h4>Name : Aluvala Sai kiran</h4>
@@ -12,10 +11,57 @@
         <a href="https://www.linkedin.com/in/sai-kiran-aluvala-02b359188/" target="_blank">Please visit my Linkedin profile</a>
         <br>
         <br>
+        <h4>Experiance Details:</h4>
+    <ul type="square">
+        <li>Experianced in SAP</li>
+        <li>Worked in an MNC for an year in Procurement field</li>
+    </ul>
+        
+        <h4>Eduacational Details</h4>
+    <ol type="A">
+        <li>Secondary school of Education-95%</li>
+        <li>Intermediate school of Education-95%</li>
+        <li>Bachelor's of Science- 84%</li>
+    </ol>    
+    <label for="language">Select language</label>
+     <select name="language" id="language">
+         <option value="french">French</option>
+         <option value="english">English</option>
+         <option value="Arabic">Arabic</option>
+         <option value="german">German</option>
+         <option value="hindi">Hindi</option>
+    </select>
+    <br>
+    <br>
+    
+    <form action="submit-data">
+        <label for="mail">Mail</label>
+         <input type="text" name="useremail" placeholder="Enter mail id"id="mail" autofocus><br>
+     <br>
+         Feedback of Profile:
+        <label for="Average">Average</label>
+        <input type="radio"name="feedback"value="Average"id="Average">
+        <label for="Good">Good</label>
+        <input type="radio" name="feedback" value="Good" id="Good">
+        <label for="Excellent">Excellent</label>
+        <input type="radio" name="feedback" value="Excellent" id="Excellent" required checked>
         <br>
-
-
-    <audio src="" type="audio/mpeg" controls loop autoplay muted>listen</audio>
-<video src="" type="video/mp4" controls autoplay muted></video>
+        <br>
+        Hobbies:
+        <label for="movies">Movies</label>
+        <input type="checkbox" name="Hobbies" id="movies" value="Movies">
+        <label for="planting">Planting</label>
+        <input type="checkbox" name="Hobbies" id="planting" value="Planting">
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="Hobbies" id="sports" value="Sports">
+         &nbsp;<br><br>
+        <label for="feedback">Feedback</label>
+        <textarea name="Feedback" id="feedback" cols="30" rows="2"></textarea required>
+            <br>
+        <video src="cute_small_bird_perching_on_tree_6892042.mp4" type="video/mp4" controls height="300px" width="300px" loop></video>
+<br>
+<br>
+        <button type="submit">Submit</button>
+          </form>
     </body>
 </html>
