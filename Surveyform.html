@@ -2,34 +2,34 @@
 <head>
     <title>Title Form</title>
     <style>
-        #color{background-color: rgba(203, 211, 198, 0.4);border-radius: 5%;border-style: dashed;width: 90vh;margin: auto;}
+        .color{background-color: rgba(203, 211, 198, 0.3);border-radius: 5%;border-style: dashed;width: 90vh;margin: auto;}
         body{background-size: 110%;}
-        #margin{margin-right: 7%}
-        #margin2{margin-right: 12%}
-        #margin3{margin-right: 13%}
-        #margin4{margin-right: 4%}
-        #margin5{margin-right: 5%}
-        #u{text-align: center;}
+        .margin{margin-right: 7%}
+        .margin2{margin-right: 12%}
+        .margin3{margin-right: 13%}
+        .margin4{margin-right: 4%}
+        .margin5{margin-right: 5%}
+        .u{text-align: center;}
     </style>
 </head>
 <body background="Tree image.webp">
-    <div  id="color">
-        <h2 id="u">Tree survey form</h2>
-        <h4 id="u">A survey from on the health of the environment</h4>
+    <div  class="color">
+        <h2 class="u">Tree survey form</h2>
+        <h4 class="u">A survey from on the health of the environment</h4>
     <form action="/" method="post">
-    <div id="u"  id="margin">
+    <div class="u"  class="margin">
         <label for="name" >Name:</label>
         <input type="text" name="username" id="name" style="width: 50%;">
     </div>
     <br>
     <br>
-    <div id="u"  id="margin">
+    <div class="u"  class="margin">
         <label for="Email">Email:</label>
         <input type="text" name="usermail" id="Email" style="width: 50%;">
     </div>
     <br>
     <br>
-    <div id="u" id="margin2" >
+    <div class="u" class="margin2" >
         Select an country:
         <select name="country" id="country">
             <option value="India">India</option>
@@ -39,7 +39,7 @@
     </div>
         <br>
         <br>
-    <div id="u" id="margin3" >
+    <div class="u" class="margin3" >
         Gender:
         <label for="Male">Male</label>
         <input type="radio" name="Gender" id="Male">
@@ -48,31 +48,31 @@
     </div>
     <br>
     <br>
-    <div id="u" id="margin4">
+    <div class="u" class="margin4">
         Please select atleast one of the options below: <br>
         <br>
-        <div id="margin4" >
+        <div class="margin4" >
         <input type="checkbox" name="pledge" >I have planted a tree or any other plant.
     </div>
         <br>
         <br>
-        <div id="margin5">
+        <div class="margin5">
         <input type="checkbox" name="pledge" >I take part in community service for the environment.
     </div>
         <br>
         <br>
-        <div id="margin5">
+        <div class="margin5">
         <input type="checkbox" name="pledge">I promise to plant more from now on.
     </div>
     </div>
     <br>
-    <div id="u" >
+    <div class="u" >
         <label for="comments">Any comments or suggestions</label><br><br>
 <textarea name="Comments" id="comments" cols="40" rows="8" style="vertical-align:top ;"></textarea>
     </div>
     <br>
     
-    <div id="u">
+    <div class="u">
         <button action="submit">Submit</button>
     </div> 
     </form>
