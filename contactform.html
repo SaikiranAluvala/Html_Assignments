@@ -2,32 +2,39 @@
 <html>
 <head>
     <title>contact form</title>
+    <style>
+          body{background-color: rgb(68, 153, 202);}
+          #u{background-color: rgba(255, 255, 255, 0.793); width: 400px; height: 500px;}
+          #v{color: rgb(31, 125, 197);}
+          #c{text-align: center;}
+        
+    </style>
 </head>
-<body style="background-color:rgb(68, 153, 202);">
+<body >
     <div align="right">
-    <div  style="background-color: rgba(255, 255, 255, 0.793); width: 400px; height: 500px; ">
+    <div  id="u">
         <br>
-        <h2 align="center" style="color: rgb(31, 125, 197);">CONTACT FORM</h2>
+        <h2 id="c" id="v" >CONTACT FORM</h2>
         <form action="/submit-data">
-            <div align="center">
+            <div id="c">
         <label for="username"></label>
-        <input align="center" type="text" placeholder="Full Name" id="username">
+        <input type="text" placeholder="Full Name" id="username">
     </div>
         <br>
         <br>
-        <div align="center">
+        <div id="c">
         <label for="usermail"></label>
         <input type="text" name="useremail" id="usermail" placeholder="Email">
     </div>
         <br>
         <br>
-        <div align="center">
+        <div id="c">
         <label for="Phonenumber"></label>
         <input type="Number" name="Phonenumber" id="Phonenumber" placeholder="Phonenumber">
     </div>
         <br>
         <br>
-        <div align="center">
+        <div id="c">
         <label for="website"></label>
         <input type="text" name="website" id="website" placeholder="Website">
     </div>
@@ -35,13 +42,13 @@
         <br>
         
         <label for="Message"></label>
-        <div align="center">
+        <div id="c">
         <textarea name="Message" id="Message" cols="30" rows="5"placeholder="Message"></textarea>
     </div>
         <br>
         <br>
-        <div align="center">
-        <button align="center" type="submit">Submit</button>
+        <div id="c">
+        <button type="submit">Submit</button>
     </div>
         </form>
     </div>
